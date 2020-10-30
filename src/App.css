@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+li{
+  margin-bottom: 25px;
+}
+.list-group-item{
+  background-color: #2E8B57 !important;
+  color: white !important;
+}
+.jumbotron{
+  background-color:#2F4F4F !important;
+}
+
+.navbar{
+  height: 60px !important;
+}
