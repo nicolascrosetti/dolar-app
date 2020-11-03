@@ -3,8 +3,8 @@ import React from 'react';
 const price = ( props ) => {
     return (
         <div>
-            <h5>{props.type}</h5>
-            <h5>${props.price}</h5>
+            <h3>{props.type}</h3>
+            <h3>${props.price}</h3>
         </div>
     )
 };
