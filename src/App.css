@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'News Cycle', sans-serif;
 }
 .myInput{
   border: 1px solid #d4d5d6;
@@ -28,7 +29,7 @@ li{
 
 h3{
   color: GhostWhite;
-  font-family: 'Special Elite', cursive;
+  font-family: 'News Cycle', sans-serif;
 }
 
 .navbar{
@@ -51,6 +52,15 @@ hr{
   font-size: 20px;
 }
 
+.inputsDiv{
+  width:200px;
+  margin: 0 auto;
+}
+
+.arrow-switch{
+  margin: auto;
+}
+
 .convert-text p{
   margin-right: 10px;
   margin-left: 10px;
@@ -58,7 +68,7 @@ hr{
 
 #dropdown{
   font-size: 14px;
-  height: 22px;
+  height: 24px;
   margin-top: 6px;
   padding-bottom: 2px;
 }
@@ -70,5 +80,20 @@ hr{
   #dropdown{
     font-size: 12px;
     height: 18px;
+  }
+}
+
+@media (max-width: 400px){
+  .convert-text{
+    font-size: 12px;
+  }
+  .convert-text p{
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  #dropdown{
+    margin-top: 0px;
+    font-size: 12px;
+    height: 20px;
   }
 }

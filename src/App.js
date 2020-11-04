@@ -68,7 +68,7 @@ class App extends Component {
   }
   
   render() {
-    document.body.style = 'background: Seashell;';
+    document.body.style = 'background: ghostwhite;';
     const dolarSolidario = parseFloat(this.state.dolarOficial)+parseFloat(this.state.dolarOficial)*0.65;
 
     return (
@@ -119,9 +119,9 @@ class App extends Component {
               <p>y viceversa.</p>
           </div>
           
-          <div className="d-flex justify-content-center">
+          <div className="d-flex flex-column inputsDiv">
             <input placeholder="ars" className="myInput" type="number" value={this.state.valueInput1} onChange={(event) => this.convertionHandler(event, "ars")} />
-            <ArrowSwitchIcon size={24} />
+            <ArrowSwitchIcon size={24} className="arrow-switch" />
             <input placeholder="usd" className="myInput" type="number" value={this.state.valueInput2} onChange={(event) => this.convertionHandler(event, "usd")}/>
           </div>
 
